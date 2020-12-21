@@ -25,7 +25,7 @@
 		}
 	}
 
-	/* Se hace la impresiÛn de los car·cteres que representaran a las celulas, en este caso el asterisco se usar· para una celula en ese espacio . */
+	/* Se hace la impresi√≥n de los car√°cteres que representaran a las celulas, en este caso el asterisco se usar√° para una celula en ese espacio . */
 	void Celulas::imprimir()
 	{
 		for (int f=0; f< filas; f ++)
@@ -33,16 +33,16 @@
 			for (int c=0; c<columnas; c++)
 			{
 				if(celulas[f][c]==1)
-					cout << "*";
+					cout << "|0|";
 				else
-					cout << "  ";
+					cout << "| |";
 			}
 			cout << "\n";
 		}
 	}
 
-	/* Cada if se encarga de analizar la posicion de cada cÈlula con respecto de otra
-	para hacer la accion que corresponde y da vida o muerte a la cÈlula */
+	/* Cada if se encarga de analizar la posicion de cada c√©lula con respecto de otra
+	para hacer la accion que corresponde y da vida o muerte a la c√©lula */
 	int Celulas::analizarCelulasCercanas(int posf , int posc)
 	{
 		celulasCercanas = 0;
@@ -81,7 +81,7 @@
 		return celulasCercanas;
 	}
 
-	/*Vector para crear una nueva matriz con la nueva genraciÛn de cÈlulas con las sobrevivientes*/
+	/*Vector para crear una nueva matriz con la nueva genraci√≥n de c√©lulas con las sobrevivientes*/
 	void Celulas::ciclo ()
 	{
 		vector <vector<int>>nueva_conf = celulas;
