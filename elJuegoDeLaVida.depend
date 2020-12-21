@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1608566353 source:c:\users\aaròn\desktop\upiita\semestre 3\programacion orientada a objetos\eljuegodelavida\main.cpp
+	"Celulas.h"
+	<iostream>
+	<cstdlib>
+	<vector>
+	<unistd.h>
+	<ctime>
+
+1608566328 c:\users\aaròn\desktop\upiita\semestre 3\programacion orientada a objetos\eljuegodelavida\include\celulas.h
+	<iostream>
+	<cstdlib>
+	<vector>
+	<unistd.h>
+	<ctime>
+
+1608566328 source:c:\users\aaròn\desktop\upiita\semestre 3\programacion orientada a objetos\eljuegodelavida\src\celulas.cpp
+	"Celulas.h"
+	<iostream>
+	<cstdlib>
+	<vector>
+	<unistd.h>
+	<ctime>
+
